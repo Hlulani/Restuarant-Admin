@@ -1,0 +1,205 @@
+
+  @import "./colors.scss";
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header-global {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: $primary-color
+  }
+
+  .space-div {
+    margin-bottom: 40px;
+  }
+
+  .space-margin {
+    margin-top: 80px;
+  }
+
+  .text-fonts {
+    font-size: 18px;
+  }
+
+  .heading {
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    background-color: $primary-color;
+    width: 100%;
+    color: $accent-color;
+    text-align: center;
+  }
+
+  .header-global .title {
+    text-align: center;
+    color: $accent-color;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .sub-heading {
+    text-align: center;
+    color: $accent-color;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .button-global {
+    height: 44px;
+    line-height: 44px !important;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFF !important;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #B64926;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    display: block;
+    background-color: #B64926;
+    border-radius: 100px;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    padding: 0 !important;
+    background-color: $primary-color-darker
+  }
+
+  .section-holder {
+    // padding: 10px; // margin-top: 60px;
+    text-align: center;
+  }
+
+  .section-holdermenu {
+    // padding: 30px; // margin-top: auto;
+    text-align: center;
+  }
+
+  .lead-text {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase
+  }
+
+  .global-comment-text {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .catagories-box {
+    display: inline-block;
+    width: 46%;
+    height: 170px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #AAAAAA;
+  }
+
+  .catagories-item {
+    height: 200px;
+    background-color: #AAAAAA;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: cover important;
+    background-position: center important;
+    background-repeat: no-repeat important;
+  }
+
+  .catagories-item .name {
+    position: absolute;
+    bottom: 12px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: $accent-color;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+  }
+
+  .subtext {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .splash {
+    background-color: $primary-color;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .splash .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://maxcdn.icons8.com/Share/icon/ios7/Logos//ios_101600.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    height: 100px;
+    width: 100px
+  }
+
+  .splash .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    border: 3px solid #FFF;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    border-radius: 1000px
+  }
+
+  .splash .logo i {
+    font-size: 44px;
+    color: #FFF;
+    line-height: 80px;
+    margin: auto;
+  }
+
+  .header-global {
+    z-index: 3000;
+    color: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+  }
+
+  .header-global .thing {
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    position: absolute;
+    border-radius: 1000px;
+    margin: 6px;
+    cursor: pointer;
+  }
+
+  .header-global .back i {
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    .align-center {
+      text-align: center;
+    }
+  }

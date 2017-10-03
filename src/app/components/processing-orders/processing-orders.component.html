@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="heading space-div header-global ">
+      <div class="logo" style="margin-top:7px">
+        <i class="material-icons" style="font-size:30px;">Processing Orders</i></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div *ngFor="let order of orders | async">
+      <div *ngFor="let menu of order.menus" (click)="isCollapsed = !isCollapsed">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="{{menu.image}}" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">{{ menu.name }}</h4>
+            <p class="card-text">{{ menu.description }}</p>
+            <p class="card-text">{{ menu.price }}</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block button-global space-margin">Notifications</button>
+        <button type="button" class="btn btn-primary btn-lg btn-block button-global space-margin" (click)="deleteProduct(order)">complete</button>
+      </div>
+    </div>
+  </div>
+
+</div>
